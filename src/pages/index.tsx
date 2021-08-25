@@ -1,14 +1,17 @@
-import Head from 'next/head';
+import Head from "next/head";
+import { GlitchComponent } from "../components/GlitchComponent";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>
-          Pensei Alto | Home
-        </title>
+        <title>Pensei Alto | Home</title>
       </Head>
-      <h1>Hello <span>World</span></h1>
+      <main>
+        <section>
+          <GlitchComponent text="pensei alto" />
+        </section>
+      </main>
     </>
-  )
+  );
 }

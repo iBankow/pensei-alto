@@ -1,0 +1,33 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+body {
+  background: black;
+  font-family: terminus;
+}
+
+.info {
+  color: white;
+  font: 1em/1 sans-serif;
+  text-align: center;
+}
+
+.info a {
+  color: white;
+}
+
+svg {
+  width: 600px;
+  height: 120px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  background: black;
+}
+
+@font-face {
+  font-family: terminus;
+  src: url(./font/TerminusTTF-4.49.1.ttf);
+}
