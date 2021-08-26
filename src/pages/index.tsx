@@ -12,12 +12,13 @@ export default function Home() {
         <section className={styles.hero}>
           <GlitchComponent text="pensei alto" />
         </section>
-        <section className="text">
+        <section className={styles.text}>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Consequatur sunt dignissimos, nobis officia blanditiis voluptate ad,
-            optio nemo totam praesentium quam quasi, magnam laboriosam similique
-            molestias. Perspiciatis dolor ex rem?
+            <span>penseialto@root: </span>Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Consequatur sunt dignissimos, nobis
+            officia blanditiis voluptate ad, optio nemo totam praesentium quam
+            quasi, magnam laboriosam similique molestias. Perspiciatis dolor ex
+            rem?
           </p>
         </section>
       </main>

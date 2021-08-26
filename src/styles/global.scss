@@ -45,11 +45,8 @@ body {
 }
 
 body,
-input,
 textarea,
-select,
-button,
-h1 {
+select {
   font: 400 1rem "Ubuntu Mono";
   color: var(--text);
 }

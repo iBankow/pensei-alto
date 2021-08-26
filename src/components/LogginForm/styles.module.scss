@@ -1,0 +1,67 @@
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  .divForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div + div {
+      margin-left: 1rem;
+    }
+
+    .divInput {
+      position: relative;
+    }
+
+    input {
+      background-color: transparent;
+      border: none;
+      outline: none;
+      font-family: "Ubuntu Mono";
+      height: 1.5rem;
+      width: 10rem;
+      color: transparent;
+
+      font-size: 16px;
+
+      padding: 16px 4px;
+
+      transition: all 0.6s;
+
+      color: var(--text);
+    }
+
+    input ~ label {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+
+      transition: 0.4s, background-color 0s;
+    }
+    input:valid ~ label,
+    input:focus ~ label {
+      text-align: center;
+      transform: translateY(-14px);
+      font-size: 12px;
+      letter-spacing: 1px;
+      background-color: var(--background);
+      width: 40%;
+    }
+
+    input:focus {
+      border: solid 1px var(--text);
+    }
+  }
+  button {
+    font-family: "Ubuntu Mono";
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    color: var(--background);
+    background-color: var(--text);
+    outline: none;
+    border: none;
+    height: 1.5rem;
+    width: 5rem;
+  }
+}

@@ -1,3 +1,4 @@
+import { LogginForm } from "../LogginForm";
 import { SignInButton } from "../SignInButton";
 import styles from "./styles.module.scss";
 
@@ -10,7 +11,7 @@ export function Header() {
           <a className={styles.active}>Home</a>
           <a>About Us</a>
         </nav>
-        <SignInButton />
+        <LogginForm />
       </div>
     </header>
   );
